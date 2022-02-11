@@ -1,0 +1,26 @@
+# Write your code
+stdno=int(input('enter student roll number'))
+stdname=input('enter name')
+group=input('enter group ')
+cs=int(input('cs marks'))
+es=int(input('es marks'))
+ms=int(input('ms marks'))
+ts=int(input('ts marks'))
+os=int(input('os marks'))
+ds=int(input('ds marks'))
+total=cs+es+ms+ts+os+ds
+avg=total/3
+if avg>=91:
+    print ('O-grade')
+elif avg>=81:
+    print ('A-grade')
+elif avg>=71:
+    print ('B-grand')
+elif avg>=61:
+    print ('C-grand')
+elif avg>=51:
+    print ('D-grand')
+elif avg>=36:
+    print ('E-grand')
+else:
+    print ('fail')
